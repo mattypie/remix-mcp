@@ -2166,8 +2166,8 @@ packages:
   hastscript@9.0.1:
     resolution: {integrity: sha512-g7df9rMFX/SPi34tyGCyUBREQoKkapwdY/T04Qn9TDWfHhAYt4/I0gMVirzK5wEzeUqIjEB+LXC/ypb7Aqno5w==}
 
-  hono@4.11.7:
-    resolution: {integrity: sha512-l7qMiNee7t82bH3SeyUCt9UF15EVmaBvsppY2zQtrbIhl/yzBTny+YUxsVjSjQ6gaqaeVtZmGocom8TzBlA4Yw==}
+  hono@4.12.0:
+    resolution: {integrity: sha512-NekXntS5M94pUfiVZ8oXXK/kkri+5WpX2/Ik+LVsl+uvw+soj4roXIsPqO+XsWrAw20mOzaXOZf3Q7PfB9A/IA==}
     engines: {node: '>=16.9.0'}
 
   html-void-elements@3.0.0:
@@ -3512,9 +3512,9 @@ snapshots:
 
   '@fortawesome/fontawesome-free@6.7.2': {}
 
-  '@hono/node-server@1.19.9(hono@4.11.7)':
+  '@hono/node-server@1.19.9(hono@4.12.0)':
     dependencies:
-      hono: 4.11.7
+      hono: 4.12.0
 
   '@iconify/types@2.0.0': {}
 
@@ -5543,7 +5543,7 @@ snapshots:
       property-information: 7.1.0
       space-separated-tokens: 2.0.2
 
-  hono@4.11.7: {}
+  hono@4.12.0: {}
 
   html-void-elements@3.0.0: {}
 
@@ -6986,7 +6986,7 @@ snapshots:
   vocs@1.4.1(@types/node@25.2.0)(@types/react@19.2.10)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(rollup@4.57.1)(typescript@5.9.3):
     dependencies:
       '@floating-ui/react': 0.27.17(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@hono/node-server': 1.19.9(hono@4.11.7)
+      '@hono/node-server': 1.19.9(hono@4.12.0)
       '@mdx-js/mdx': 3.1.1
       '@mdx-js/react': 3.1.1(@types/react@19.2.10)(react@19.2.4)
       '@mdx-js/rollup': 3.1.1(rollup@4.57.1)
@@ -7016,7 +7016,7 @@ snapshots:
       cross-spawn: 7.0.6
       fs-extra: 11.3.3
       hastscript: 8.0.0
-      hono: 4.11.7
+      hono: 4.12.0
       mark.js: 8.11.1
       mdast-util-directive: 3.1.0
       mdast-util-from-markdown: 2.0.2
